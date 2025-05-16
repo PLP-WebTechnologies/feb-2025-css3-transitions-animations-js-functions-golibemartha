@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Igbo Recipe Delight</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header role="banner">
+            <h1>Igbo Recipe Delight</h1>
+            <button id="toggleTheme" class="toggleTheme">Toggle Theme</button>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="recipes">
+                <h2>Our Recipes</h2>
+                <div class="recipes">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/R.2d90a7f24d4fe8477fd104d46764e7f0?rik=m%2f%2bzsQqqzvCH9g&pid=ImgRaw&r=0" />
+                        <div class="cardBody">
+                            <h3>Ofe Onugbu</h3>
+                            <p>Bitterleaf soup made with palm oil, ogiri, and assorted meats.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/R.f1d8e44f023e03c64999af05f285ea8b?rik=Z8ABJrw3BiGaTw&pid=ImgRaw&r=0" />
+                        <div class="cardBody">
+                            <h3>Abacha</h3>
+                            <p>A traditional African salad made with cassava, ugba, and pepper sauce.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.kIgBH5bJZ2Y3f7eJdkhQrQAAAA?rs=1&pid=ImgDetMain" />
+                        <div class="cardBody">
+                            <h3>Okpa</h3>
+                            <p>Steamed Bambara nut flour pudding, a protein-rich delicacy.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Igbo Foods. All rights reserved.</p>
+            <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
